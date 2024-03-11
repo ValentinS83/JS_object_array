@@ -98,6 +98,20 @@ console.log('areEqual: ', areEqual);
 delete person.age;
 console.log('person: ', person);
 
-// obiectul Date
+// Obiectul Date
 const date = new Date();
-console.log('date:', date);
+console.log('date: ', date);
+
+
+// accesare an
+console.log('an: ', date.getFullYear());
+
+// accesare luna
+const months = ["Ianuarie", "Februarie", "Martie", "Aprilie"];
+const currentMonthIndex = date.getMonth();
+console.log('luna: ', months[currentMonthIndex]);
+
+// accesare zi
+console.log('day of the month: ', date.getDate());
+
+
