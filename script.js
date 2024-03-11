@@ -96,4 +96,8 @@ console.log('areEqual: ', areEqual);
 
 // stergere proprietate obiect
 delete person.age;
-console.log(`person: `, person);
+console.log('person: ', person);
+
+// obiectul Date
+const date = new Date();
+console.log('date:', date);
